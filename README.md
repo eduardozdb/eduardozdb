@@ -26,3 +26,7 @@ $perfil.Rol = "Redes y Servidores"
 $perfil.Empresa = "Independiente"
 $perfil.Saludar()
 ```
+
+## ![](https://cdn-icons-png.flaticon.com/512/2920/2920277.png) Acerca de mí
+
+## ![](https://cdn-icons-png.flaticon.com/512/2920/2920277.png) Habilidades
