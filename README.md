@@ -1,16 +1,24 @@
 ## Hi there 👋
+```powershell
+class Perfil {
+    [string]$Nombre
+    [string]$Pais
+    [string]$Rol
+    [string]$Empresa
 
-<!--
-**eduardozdb/eduardozdb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    Perfil() {
+        Write-Output "Gracias por visitar mi perfil, te invito a conocer mis proyectos."
+    }
 
-Here are some ideas to get you started:
+    [void]Saludar() {
+        Write-Output "Hola, soy $($this.Nombre), trabajo con $($this.Rol) en $($this.Pais) como $($this.Empresa)."
+    }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+$Perfil = [perfil]::new()
+$perfil.Nombre = "Eduardo ZDB"
+$perfil.Pais = "Ecuador"
+$perfil.Rol = "Redes y Servidores"
+$perfil.Empresa = "Independiente"
+$perfil.Saludar()
+```
